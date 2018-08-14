@@ -249,6 +249,274 @@ body{
     color: #414042;	font-family: "UniNeueBook";	font-size: 48px;	font-weight: 300;	line-height: 48px;	text-align: center;
 }
 
+
+
+
+/**
+    platform_overview
+ */
+.platform_overview{
+
+}
+
+.po_header{
+    background: url("../images/img_header.png") no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.po_header__content{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 135.15px;
+    padding-bottom: 240px;
+}
+
+.po_header__lgfont{
+    font-family: "UniNeueRegular";
+    color: #fff;
+    font-size: 48px;
+    text-align: left;
+    letter-spacing: 0.66px;
+    line-height: 48px;
+
+    max-width: 584.15px;
+    width: 100%;
+}
+
+.po_header__mdfont{
+    font-family: "ProximaNovaLight";
+    color: #DFE2FF;
+    font-size: 28px;
+    text-align: left;
+    line-height: 32px;
+    letter-spacing: 0;
+
+    padding-top: 23.44px;
+
+    max-width: 588.6px;
+    width: 100%;
+}
+
+.po_header__solution{
+    max-width: 311.04px;
+    width: 100%;
+    margin-left: auto;
+    text-align: left;
+    padding-top: 54.81px;
+}
+
+@media (max-width: 992px) {
+    .po_header__solution {
+        margin-left: inherit;
+        margin-right: auto;
+    }
+}
+
+.po_header__smfont{
+    font-family: "ProximaNovaRegular";
+    color: #FCCC06;
+    font-size: 17px;
+    text-align: left;
+    line-height: 39px;
+    letter-spacing: 0;
+}
+
+.po_header__xsfont{
+    font-family: "ProximaNovaRegular";
+    color: #fff;
+    font-size: 17px;
+    text-align: left;
+    line-height: 39px;
+    letter-spacing: 0;
+    border-bottom: 1px solid #fff;
+}
+
+.po_header__xsfont.last{
+    border-bottom: 0;
+}
+
+.po_header__xsfont > img{
+    width: 10px;
+    margin-left: 10px;
+}
+
+
+/**
+
+ */
+.po_wealth_data{
+    margin: 15px 15px 0 15px;
+    width: calc(100% - 30px);
+    background: #F5F5F5;
+}
+
+.po_wealth_data__content{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+}
+
+.po_wd_box{
+    background: #fff;
+    max-width: 1100px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 670px;
+
+    margin-top: -155px;
+    display: inline-block;
+
+    text-align: center;
+
+    padding: 87px 15px;
+}
+
+.po_wd_box__lgfont{
+    font-family: "ProximaNovaSemibold";
+    color: #414042;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.13px;
+    line-height: 22px;
+}
+
+.po_wd_box__mdfont{
+    font-family: "UniNeueBook";
+    color: #6170FF;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0.13px;
+    line-height: 22px;
+
+    padding-top: 60px;
+}
+
+.po_wd_box__smfont{
+    font-family: "ProximaNovaLight";
+    color: #4A4A4A;
+    font-size: 20px;
+    letter-spacing: 0.13px;
+    line-height: 22px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+/**
+
+ */
+.po_wealth_data2{
+    margin: -375px 15px 0;
+    width: calc(100% - 30px);
+    background: #F5F5F5;
+    padding-bottom: 100px;
+}
+
+@media (max-width: 768px) {
+    .po_wealth_data2 {
+        margin-top: 100px;
+    }
+}
+
+.po_wealth_data2__content{
+    max-width: 1222px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    /*display: flex;*/
+}
+
+.wealth_data__item{
+    width: 100%;
+    max-width: 296px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background: #fff;
+    border-top: 5px solid #6170FF;
+    height: 386px;
+
+    -webkit-box-shadow: 0px 30px 30px 0px rgba(0,0,0,0.12);
+    -moz-box-shadow: 0px 30px 30px 0px rgba(0,0,0,0.12);
+    box-shadow: 0px 30px 30px 0px rgba(0,0,0,0.12);
+
+    margin-top: 50px;
+}
+
+@media (max-width: 1232px) {
+    .wealth_data__item{
+        min-height: 442px;
+    }
+}
+
+@media (max-width: 768px) {
+    .wealth_data__item{
+        min-height: 381px;
+    }
+}
+
+.wealth_data__item-title{
+    font-family: "ProximaNovaLight";
+    color: #6170FF;
+    font-size: 28px;
+    text-align: center;
+    line-height: 32px;
+
+    padding-top: 47px;
+}
+
+.wealth_data__item-body{
+    padding-left: 20px;
+    padding-right: 20px;
+
+    font-family: "ProximaNovaRegular";
+    color: #414042;
+    font-size: 16px;
+    text-align: left;
+    line-height: 24px;
+}
+
+.wealth_data__item-body > div{
+    font-weight: 800;
+    padding-top: 15px;
+}
+
+.wealth_data__item-btn{
+    background: #38D299;
+    border: 0;
+    outline: none;
+    font-family: "ProximaNovaBold";
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 2.09px;
+    line-height: 13px;
+    max-width: 177.55px;
+    width: 100%;
+    height: 40px;
+
+    margin-top: 40px;
+}
+
+.wealth_data__item-btn.last{
+    margin-top: 16px;
+}
+
+.wealth_data__item-btn:hover{
+    background: #005239;
+}
+
+
 @media (max-width: 1300px) {
 
 }
