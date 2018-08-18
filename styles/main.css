@@ -335,6 +335,17 @@ body{
     line-height: 39px;
     letter-spacing: 0;
     border-bottom: 1px solid #fff;
+    display: block;
+}
+
+.po_header__xsfont:hover{
+    color: #38D299;
+    text-decoration: none;
+}
+
+.po_header__xsfont:focus{
+    color: #fff;
+    text-decoration: none;
 }
 
 .po_header__xsfont.last{
@@ -436,9 +447,13 @@ body{
     /*display: flex;*/
 }
 
+.po_wealth_data2__content .no_padding{
+    padding: 0 !important;
+}
+
 .wealth_data__item{
     width: 100%;
-    max-width: 296px;
+    max-width: 300px;
     margin-left: auto;
     margin-right: auto;
 
@@ -487,7 +502,8 @@ body{
 }
 
 .wealth_data__item-body > div{
-    font-weight: 800;
+    font-family: "ProximaNovaBold";
+    font-weight: 900;
     padding-top: 15px;
 }
 
@@ -686,6 +702,7 @@ body{
     padding-bottom: 25px;
 
     border-bottom: 1px solid #A7A9AC;
+    display: block;
 }
 
 .po_contact_box__mdfont.last{
